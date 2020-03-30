@@ -1,0 +1,39 @@
+#chain
+torus
+100 0 0 25 75
+rotate
+x 90
+apply
+torus
+200 0 0 25 75
+rotate
+x 90
+apply
+rotate
+x 90
+apply
+torus
+300 0 0 25 75
+rotate
+x 90
+apply
+rotate
+x 90
+apply
+torus
+400 0 0 25 75
+rotate
+x 90
+apply
+rotate
+x 90
+apply
+torus
+500 0 0 25 75
+rotate
+x 10
+apply
+move
+0 300 0
+apply
+display

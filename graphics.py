@@ -56,7 +56,7 @@ def saveExtension(fname ):
 def display():
     ppmName = 'pic.ppm'
     writeImage(ppmName )
-    p = Popen( ['imdisplay', ppmName], stdin=PIPE, stdout = PIPE )
+    p = Popen( ['display', ppmName], stdin=PIPE, stdout = PIPE )
     p.communicate()
     remove(ppmName)
 

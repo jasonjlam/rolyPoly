@@ -7,9 +7,8 @@ edgeMat = newMatrix(4,0)
 polyMat = newMatrix(4,0)
 
 transform = identity(newMatrix())
-color = [0, 0, 0]
-createPixels(800, 800, 255)
-# parseFile("test", points, transform, pixels, color)
+color = [80, 175, 60]
+createPixels(600, 600, 255)
 parseFile("script", edgeMat, polyMat, transform, pixels, color)
 # Uncomment if you want to make the image
-# parseFile("quarantine", points, transform, pixels, color)
+# parseFile("memes", edgeMat, polyMat, transform, pixels, color)
